@@ -3,7 +3,8 @@
 A minimal firmware for OTA (over the air) flashing various target firmwares
 starting from Mongoose OS.
 
-Original repository at https://github.com/yaourdt/mgos-to-tasmota
+Original repository at https://github.com/yaourdt/mgos-to-tasmota. This repository
+is tailored to use Tasmota Latest Release Version only.
 
 ## Overview
 
