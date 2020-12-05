@@ -46,7 +46,7 @@ Device | Update URL | Tasmota Template
 --- | --- | ---
 Shelly 1        | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1.zip`       | `{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}`
 Shelly 1PM      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1PM.zip`     | `{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}`
-Shelly 1L       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1L.zip`      | `{"NAME":"Shelly 1L","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}`
+Shelly 1L       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1L.zip`      | `{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],"FLAG":0,"BASE":18}`
 Shelly Plug S   | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyPlugS.zip`   | `{"NAME":"Shelly Plug S","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":2,"BASE":45}`
 Shelly 2        | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly2.zip`       | `{"NAME":"Shelly 2","GPIO":[0,135,0,136,21,22,0,0,9,0,10,137,0],"FLAG":0,"BASE":47}`
 Shelly 2.5      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly25.zip`      | `{"NAME":"Shelly 2.5","GPIO":[56,0,17,0,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}`
