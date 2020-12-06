@@ -78,4 +78,3 @@ the initial code.
 
 This firmware is build using a fork of [Mongoose OS docker action](https://github.com/dea82/mongoose-os-action)
 which can be found [here](https://github.com/yaourdt/mongoose-os-action).
-
