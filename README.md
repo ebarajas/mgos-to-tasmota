@@ -44,22 +44,26 @@ which you can use for recovery.
 
 Device | Update URL | Tasmota Template
 --- | --- | ---
-Shelly 1        | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1.zip`       | `{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}`
-Shelly 1PM      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1PM.zip`     | `{"NAME":"Shelly 1PM","GPIO":[56,0,0,0,82,134,0,0,0,0,0,21,0],"FLAG":2,"BASE":18}`
+Shelly 1        | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1.zip`       | `{"NAME":"Shelly 1","GPIO":[1,1,0,1,224,192,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}`
+Shelly 1PM      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1PM.zip`     | `{"NAME":"Shelly 1PM","GPIO":[320,0,0,0,192,2720,0,0,0,0,0,224,0,4736],"FLAG":0,"BASE":18}`
 Shelly 1L       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly1L.zip`      | `{"NAME":"Shelly 1L","GPIO":[320,0,0,0,192,224,0,0,0,0,193,0,0,4736],"FLAG":0,"BASE":18}`
-Shelly Plug S   | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyPlugS.zip`   | `{"NAME":"Shelly Plug S","GPIO":[57,255,56,255,0,134,0,0,131,17,132,21,0],"FLAG":2,"BASE":45}`
-Shelly 2        | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly2.zip`       | `{"NAME":"Shelly 2","GPIO":[0,135,0,136,21,22,0,0,9,0,10,137,0],"FLAG":0,"BASE":47}`
-Shelly 2.5      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly25.zip`      | `{"NAME":"Shelly 2.5","GPIO":[56,0,17,0,21,83,0,0,6,82,5,22,156],"FLAG":2,"BASE":18}`
-Shelly RGBW2    | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyRGBW2.zip`   | `{"NAME":"Shelly RGBW2","GPIO":[0,0,52,0,40,255,0,0,37,17,39,38,0],"FLAG":0,"BASE":18}`
+Shelly Plug S   | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyPlugS.zip`   | `{"NAME":"Shelly Plug S","GPIO":[320,1,576,1,1,2720,0,0,2624,32,2656,224,1,4736],"FLAG":0,"BASE":45}`
+Shelly 2        | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly2.zip`       | `{"NAME":"Shelly 2","GPIO":[0,2752,0,2784,224,225,0,0,160,0,161,2816,0,0],"FLAG":0,"BASE":47}`
+Shelly 2.5      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-Shelly25.zip`      | `{"NAME":"Shelly 2.5","GPIO":[320,0,0,0,224,193,0,0,640,192,608,225,3456,4736],"FLAG":0,"BASE":18}`
+Shelly RGBW2    | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyRGBW2.zip`   | `{"NAME":"Shelly RGBW2","GPIO":[0,0,288,0,419,1,0,0,416,32,418,417,0,0],"FLAG":0,"BASE":18}`
 Shelly Dimmer 1 | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyDimmer1.zip` | `{"NAME":"Shelly Dimmer 1","GPIO":[0,3200,0,3232,5568,5600,0,0,192,0,193,288,0,4736],"FLAG":0,"BASE":18}`
 Shelly Dimmer 2 | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyDimmer2.zip` | `{"NAME":"Shelly Dimmer 2","GPIO":[0,3200,0,3232,5568,5600,0,0,193,0,192,0,320,4736],"FLAG":0,"BASE":18}`
-Shelly EM       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyEM.zip`      | `{"NAME":"Shelly EM","GPIO":[0,0,0,0,0,0,0,0,6,156,5,21,0],"FLAG":15,"BASE":18}`
+Shelly EM       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyEM.zip`      | `{"NAME":"Shelly EM","GPIO":[0,0,0,0,0,0,0,0,640,3457,608,224,8832,1],"FLAG":0,"BASE":18}`
 Shelly Bulb     | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyBulb.zip`    | **not yet available, only flash if you a perfectly certain about what you are doing**
-Shelly Vintage  | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyVintage.zip` | **not yet available, only flash if you a perfectly certain about what you are doing**
-Shelly Plug US  | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyPlugUS.zip`  | `{"NAME":"ShellyPlugUS","GPIO":[52,255,57,255,21,134,0,0,131,17,132,157,0],"FLAG":0,"BASE":45}`
-Shelly Duo      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyBulbDuo.zip` | `{"NAME":"Shelly Duo","GPIO":[0,0,0,0,38,37,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}`
+Shelly Vintage  | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyVintage.zip` | `{"NAME":"Shelly Vintage","GPIO":[0,0,0,0,416,0,0,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}`
+Shelly Plug US  | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyPlugUS.zip`  | `{"NAME":"Shelly Plug US","GPIO":[288,0,321,0,224,2720,0,0,2624,32,2656,544,0,0],"FLAG":0,"BASE":45}`
+Shelly Duo      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyBulbDuo.zip` | `{"NAME":"Shelly Duo","GPIO":[0,0,0,0,417,416,0,0,0,0,0,0,0],"FLAG":0,"BASE":18}`
 Shelly H&T      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyHT.zip`      | **not yet available, only flash if you a perfectly certain about what you are doing**
-Shelly i3       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyI3.zip`      | `{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,0,0,0,83,84,82,0,0],"FLAG":2,"BASE":18}`
+Shelly i3       | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyI3.zip`      | `{"NAME":"Shelly i3","GPIO":[0,0,0,0,0,320,0,0,193,194,192,0,0,4736],"FLAG":0,"BASE":18}`
+Shelly Plug 2   | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyPlug2.zip`   | **not yet available, only flash if you a perfectly certain about what you are doing**
+Shelly Uni      | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyUni.zip`     | `{"NAME":"Shelly Uni","GPIO":[320,0,0,0,225,1216,0,0,192,193,194,224,0,4864],"FLAG":0,"BASE":18}`
+Shelly Duo RGBW | `http://shellyip/ota?url=http://ota.tasmota.com/tasmota/shelly/mg2tasmota-ShellyDuoRGBW.zip` | `{"NAME":"Shelly Duo RGBW","GPIO":[0,0,0,0,0,419,0,0,417,416,418,0,0,0],"FLAG":0,"BASE":18}`
+
 
 For your convenience, the table above also lists the matching Tasmota device
 templates from [templates.blakadder.com](https://templates.blakadder.com) which
